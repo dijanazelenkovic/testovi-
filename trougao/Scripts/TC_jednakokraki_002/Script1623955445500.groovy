@@ -31,17 +31,3 @@ WebUI.click(findTestObject('Object Repository/Page_/input_Jednakostranini trouga
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_/label_Trougao je jednakokraki'), 'Trougao je jednakokraki.')
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('http://iteon.org/qa/01-trougao-v1/')
-
-WebUI.setText(findTestObject('Object Repository/Page_/input_Jednakostranini trougao (sve tri stra_9f4979'), '0')
-
-WebUI.setText(findTestObject('Object Repository/Page_/input_Jednakostranini trougao (sve tri stra_de46a7'), '0')
-
-WebUI.setText(findTestObject('Object Repository/Page_/input_Jednakostranini trougao (sve tri stra_5324ef'), '2')
-
-WebUI.click(findTestObject('Object Repository/Page_/input_Jednakostranini trougao (sve tri stra_6bca0c'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/Page_/label_Trougao je jednakokraki'), 'Trougao je jednakokraki.')
-
